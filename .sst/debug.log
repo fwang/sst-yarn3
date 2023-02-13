@@ -1,0 +1,12 @@
+2023-02-13T21:49:10.588Z   +892ms [debug] Config loaded {"version":"2.0.22","cdkVersion":"2.62.2","config":{"name":"sst-yarn3","region":"us-east-1","stage":"frank","ssmPrefix":"/sst/sst-yarn3/frank/"},"metafile":{"inputs":{"sst.config.js":{"bytes":440,"imports":[{"path":"sst/constructs","kind":"import-statement","external":true},{"path":"<runtime>","kind":"import-statement","external":true}]}},"outputs":{".sst.config.1676324949841.mjs":{"imports":[{"path":"sst/constructs","kind":"import-statement","external":true}],"exports":["default"],"entryPoint":"sst.config.js","inputs":{"sst.config.js":{"bytesInOutput":470}},"bytes":2132}}},"paths":{"config":"/Users/frank/Sites/fwang/sst-yarn3/sst.config.js","root":"/Users/frank/Sites/fwang/sst-yarn3","out":"/Users/frank/Sites/fwang/sst-yarn3/.sst","artifacts":"/Users/frank/Sites/fwang/sst-yarn3/.sst/artifacts"}}
+2023-02-13T21:49:10.644Z    +56ms [debug] Synthesizing stacks...
+2023-02-13T21:49:10.678Z    +34ms [debug] Using AWS profile 
+2023-02-13T21:49:10.693Z    +15ms [debug] Created AWS client STSClient
+2023-02-13T21:49:11.068Z   +375ms [debug] Using identity Account: 112245769880 User: AIDAIHW56K6VNFT4XPI2W
+2023-02-13T21:49:11.132Z    +64ms [debug] Running 1 deferred tasks with concurrency: 7
+2023-02-13T21:49:11.133Z     +1ms [debug] Building function c8b1c50e0c14759149be5a93f5ffe85890d252d6a7
+2023-02-13T21:49:11.135Z     +2ms [debug] Publishing event {"type":"function.build.success","properties":{"functionID":"c8b1c50e0c14759149be5a93f5ffe85890d252d6a7"},"sourceID":"c9b91fcb0254881680b1cd0ecfc708ee"}
+2023-02-13T21:49:11.136Z     +1ms [debug] Generating types in /Users/frank/Sites/fwang/sst-yarn3/.sst/types
+2023-02-13T21:49:11.165Z    +29ms [debug] 
+2023-02-13T21:49:11.165Z     +0ms [debug] Loading v2 AWS SDK
+2023-02-13T21:49:11.165Z     +0ms [debug] Finished synthesizing
